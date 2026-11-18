@@ -13,7 +13,7 @@ I test every idea against a simple baseline, and I write up the cases where it f
 
 - **An Intelligent Gene Biomarker Identification Framework for Pan-Cancer Classification Using Genetic Algorithms and Deep Learning**, IEEE ICBCB 2026, Japan · [paper](https://ieeexplore.ieee.org/document/11621848/) · [code](https://github.com/GeekDaksh/Cancer-Detection-and-Classification-using-Deep-Learning-and-Genetic-Algorithm)
 - **Uncertainty-Aware Multi-Agent Lithium-Ion Battery Charging**, IEEE INDICON 2026 (accepted, co-author) · [code](https://github.com/GeekDaksh/Battery-Management-System) · [demo](https://battery-management-system-1-mc2b.onrender.com/)
-- **Self-Driving Lab for Low-Cost, Low-Carbon Concrete**, *The Indian Concrete Journal* (submitted) · [code](https://github.com/GeekDaksh/SDL-Mixed-Design)
+- **A code-constrained decision engine for M-sand concrete mix design from Indian ready-mix plant data**, *The Indian Concrete Journal* (submitted) · [code](https://github.com/GeekDaksh/SDL-Mixed-Design) · [demo](https://geekdaksh.github.io/SDL-Mixed-Design/)
 
 ---
 
@@ -21,7 +21,7 @@ I test every idea against a simple baseline, and I write up the cases where it f
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**MSand-SDL**](https://github.com/GeekDaksh/SDL-Mixed-Design) | AI lab assistant that designs IS 456 / IS 10262 compliant M-Sand concrete mixes, ranks them on cost and carbon, and plans the next lab trials | Gaussian processes, Bayesian optimisation, scikit-learn |
+| [**Pramāṇa**](https://geekdaksh.github.io/SDL-Mixed-Design/) | Self-driving lab for M-Sand concrete: designs IS 456 / IS 10262 mixes, predicts strength and slump with honest 90% ranges, and plans the next lab trial. [Code](https://github.com/GeekDaksh/SDL-Mixed-Design) | Ridge + Gaussian-process ensemble, Python, Pyodide |
 | [**Battery-Management-System**](https://github.com/GeekDaksh/Battery-Management-System) | Five agents plan Li-ion charging with uncertainty-aware forecasts. A safety agent can abort a charge. Up to 9% less degradation than CC-CV | Transformers, NSGA-II, Docker |
 | [**MediaLens**](https://github.com/GeekDaksh/MediaLens) | Scene search over *Friends* clips (Recall@5 from 2.5% to 76%), cost-aware sarcasm detection and SafeCut profanity censoring | Whisper, CLIP, RoBERTa, Gemini, FAISS |
 | [**ARCS**](https://github.com/GeekDaksh/ARCS---The-Final) | Fire-control trajectory simulation (L&T internship). Kalman and least-squares correction cut a 215 m miss to a 3.8 m CEP | Python, Flask, Kalman filtering |
